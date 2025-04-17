@@ -18,7 +18,7 @@ MODEL_HUMOR_PATH = os.getenv('MODEL_HUMOR_PATH1')
 DEEPSEEK_API_KEY = os.getenv('DEEPSEEK_API_KEY')
 
 if not DISCORD_WEBHOOK_URL:
-    raise ValueError("DISCORD_WEBHOOK_URL is missing in the .env file.")
+    raise ValueError("https://discord.com/api/webhooks/1362382419159683203/hRkjPnjXo8zls9k7uSvPrXRaElioxkUEd59Lrnyitn9gCFMLZsmhjm0NWlmLeSYDsbg4")
 if not MODEL_HUMOR_PATH:
     raise ValueError("MODEL_HUMOR_PATH1 is missing in the .env file.")
 if not DEEPSEEK_API_KEY:
