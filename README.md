@@ -9,7 +9,7 @@ Precondtion: Docker for Desktop and running k8s-Cluster (local)
 
 #### **1. ArgoCD deloyment and Connection**
 
-```bash
+```bash   
 kubectl apply -n argocd -f argocd-app.yaml
 kubectl port-forward svc/argocd-server -n argocd 8088:443
 kubectl get secret argocd-initial-admin-secret -n argocd -o jsonpath='{.data.password}' | base64 -d
