@@ -17,3 +17,6 @@ COPY ./app /app
 
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
+
+# Default command to run your bot (choose your file)
+CMD ["python", "bazinga_cve_bot.py"]
